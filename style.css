@@ -190,7 +190,7 @@ body,
 .navigation__link:active {
   text-decoration: underline;
   /* ✅ */
-  color: var(--color-text);
+  color: var(--color-green);
   /* ✅ */
 }
 
@@ -346,8 +346,8 @@ body,
   content: "";
   position: absolute;
   background-color: var(--color-box-img);
-  width: 92%;
-  height: 34rem;
+  width: 100%;
+  height: 46rem;
   z-index: -1;
   border-radius: 1.8rem 0;
   box-shadow: 2.17543px 8.7017px 38.0699px rgba(0, 0, 0, 0.15);

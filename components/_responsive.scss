@@ -12,6 +12,7 @@
   .section {
     grid-template-columns: 1fr;
   }
+
   .bio__pic-content {
     grid-row: 1;
     justify-self: center;
@@ -74,7 +75,7 @@
     transition: var(--transition-timing);
   }
 
-  .burger-menu__checkbox:checked + .navigation {
+  .burger-menu__checkbox:checked+.navigation {
     top: 100%;
   }
 
@@ -108,8 +109,5 @@
   .toggle {
     padding: 3rem 0;
     z-index: 1;
-    // width: 100%;
-    // height: 100%;
-    // background: var(--color-background);
   }
 }
